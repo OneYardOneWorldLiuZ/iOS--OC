@@ -101,8 +101,7 @@
 		DF45F7B41EEFCDCF005C8853 /* NewWord */ = {
 			isa = PBXGroup;
 			children = (
-				DF45F7B81EEFCDCF005C8853 /* AppDelegate.h */,
-				DF45F7B91EEFCDCF005C8853 /* AppDelegate.m */,
+				DF56709E222D426B00DD44CB /* New Group */,
 				DF45F7BB1EEFCDCF005C8853 /* ViewController.h */,
 				DF45F7BC1EEFCDCF005C8853 /* ViewController.m */,
 				DF45F7BE1EEFCDCF005C8853 /* Main.storyboard */,
@@ -138,6 +137,23 @@
 				DF45F7DC1EEFCDCF005C8853 /* Info.plist */,
 			);
 			path = NewWordUITests;
+			sourceTree = "<group>";
+		};
+		DF56709C222D422700DD44CB /* 阿塞了 */ = {
+			isa = PBXGroup;
+			children = (
+				DF45F7B81EEFCDCF005C8853 /* AppDelegate.h */,
+				DF45F7B91EEFCDCF005C8853 /* AppDelegate.m */,
+			);
+			path = "阿塞了";
+			sourceTree = "<group>";
+		};
+		DF56709E222D426B00DD44CB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				DF56709C222D422700DD44CB /* 阿塞了 */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -507,6 +523,7 @@
 				DF45F7E11EEFCDCF005C8853 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF45F7E21EEFCDCF005C8853 /* Build configuration list for PBXNativeTarget "NewWordTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				DF45F7E41EEFCDCF005C8853 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF45F7E51EEFCDCF005C8853 /* Build configuration list for PBXNativeTarget "NewWordUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				DF45F7E71EEFCDCF005C8853 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
